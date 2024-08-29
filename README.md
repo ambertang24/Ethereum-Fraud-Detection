@@ -25,7 +25,8 @@ The dataset used in this project is from Kaggle: https://www.kaggle.com/datasets
 #### About Dataset 
 This dataset contains rows of known fraud and valid transactions made over Ethereum, a type of cryptocurrency. This dataset is imbalanced.
 
-Content
+*** Content***  
+
 Here is a description of the rows of the dataset:
 
 - Index: the index number of a row
@@ -119,14 +120,14 @@ To evaluate the models I used an Accuracy score as well as the 'classification_r
 ## Results 
 Overall the Multilayer Perceptron model performed the best with an accuracy of 0.78293 whiles the Logistic Regression model performed the poorest with an accuracy of 0.638672. This was expected because of their respected complexities. 
 
-##Challenges and Limitations 
+## Challenges and Limitations 
 
 Challenges to this project was mainly in the data preprocessing stage as the data needed to go through several preprocessing stages. This is the first time I have used one hot encoding for my categorical variables which also led on to me using dimensionality reduction for the first time. At first, I did not do enough data preprocessing which as a result gave me a poor performing logistic regression model and XGBoost model with their accuracy being under 0.4. This made me acknowledge the importance of preparing the data to a good standard for modelling.
 
 A limitation to this project is the Hyperparameter Tuning method RandomSearchCV which meant that the tuning was not optimal as it could not search through all of the options. With more resources I would have liked to use GridSearchCV however running time was too time consuming. 
 
 
-Conclusion and Reflection
+## Conclusion and Reflection
 
 This is my first independent Classification project which is on Ethereum Fraud Detection. I wanted to get some experience on doing a classification problem as at this time, I have only done regression problems. I wanted to include some hyperparameter tuning to gain more confidence in including tuning in my projects and I also wanted to include a neural network model as I have little experience with neural networks, and I find them challenging.  
 
