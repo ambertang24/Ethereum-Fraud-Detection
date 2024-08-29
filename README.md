@@ -14,7 +14,7 @@ Ethereum is a decentralized global software platform powered by blockchain techn
 Despite the transparency of blockchain data, the detection of fraudulent transactions remains a challenging task due to the complexity, volume, and evolving nature of fraudulent techniques. Traditional fraud detection methods often fall short in the blockchain context, where transactions are immutable and involve decentralized actors. Moreover, the inherent features of blockchain transactions such as the lack of centralized oversight, the variety of transaction types, and the global scale of operations complicate the identification of fraudulent behaviour.
 
 #### Objective
-This project aims to develop a machine learning model that accurately identifies fraudulent Ethereum transactions.
+This project aims to accurately identify fraudulent Ethereum transactions using Machine Learning.
 
 
 ## Implementation and Methodology
