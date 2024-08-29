@@ -25,7 +25,7 @@ The dataset used in this project is from Kaggle: https://www.kaggle.com/datasets
 #### About Dataset 
 This dataset contains rows of known fraud and valid transactions made over Ethereum, a type of cryptocurrency. This dataset is imbalanced.
 
-*** Content ***  
+**Conten***  
 
 Here is a description of the rows of the dataset:
 
